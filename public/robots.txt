@@ -31,4 +31,4 @@ Allow: /
 User-agent: *
 DisAllow: /
 
-Sitemap: https://blog.yaria.top/sitemap.xml
+Sitemap: https://myblog.kemiao.online/sitemap.xml
