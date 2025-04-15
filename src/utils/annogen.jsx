@@ -6,7 +6,7 @@ const genanno = cache(async () => {
         type: 'get',
         url: 'https://apis.map.qq.com/ws/location/v1/ip',
         data: {
-            key: 'T3EBZ-TJ7LI-YRBG2-5ZLUR-KD3OS-U6BJO',
+            key: 'PVOBZ-VP3EW-ALAR2-3KN4F-QMFVT-CZFUN',
             output: 'jsonp',
         },
         dataType: 'jsonp',
@@ -231,17 +231,17 @@ const genanno = cache(async () => {
             else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = <><span>夕阳无限好！</span></>;
             else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = <><span>晚上好</span>，夜生活嗨起来！</>;
             else timeChange = "夜深了，早点休息，少熬夜";
-            resolve(<>Next.js新博客！
+            resolve(<>克喵の博客！
                 <br />
                 欢迎来自<span>{pos}</span>的小伙伴，{timeChange}
                 <br />
-                你距离Ariasaka约有<span>{dist}</span>公里，{posdesc}
+                你距离克喵爱吃卤面约有<span>{dist}</span>公里，{posdesc}
                 <br />
                 本网站的Twikoo评论系统使用
                 <a className="normal-a" href="https://weavatar.com">WeAvatar</a>
                 头像系统，请自行绑定邮箱配置</>);
         },
-        error: () => resolve("欢迎来到Ariaの新博客喵，基于Next.js和React构建。")
+        error: () => resolve("欢迎来到克喵の博客喵，基于Next.js和React构建。")
     }))
 });
 async function agn() {

@@ -16,7 +16,7 @@ export const metadata = {
       'application/rss+xml': [{ url: 'feed.xml', title: 'RSS 订阅' }],
     },
   },
-  describe: "Ariasakaの小窝QwQ",
+  describe: "喵落阁",
 }
 export default function RootLayout({
   children,
@@ -37,7 +37,7 @@ export default function RootLayout({
         <NavBar />
         <NextTopLoader color="var(--aria-theme)" height={5} />
         {children}
-        <PostChat />
+        {/* <PostChat /> */}
         <Footer />
       </body>
     </html>

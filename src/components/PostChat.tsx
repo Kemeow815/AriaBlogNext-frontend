@@ -10,7 +10,7 @@ export default function PostChat() {
         const script = document.createElement("script");
         script.src = "https://ai.tianli0.top/static/public/postChatUser_summary.min.js";
         script.async = true;
-        script.setAttribute("data-postChat_key", "b2697bd81e3904826ee9c180db306e61b2691c");
+        script.setAttribute("data-postChat_key", "");
         script.onload = () => {
             setLoaded(1);
         };
